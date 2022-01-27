@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sdas_files/index.css">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <img src="./sdas_files/familyCamping.png" alt="Snow" style="width:100%;">
+        <div class="rectangle">
+            <img src="./sdas_files/Rectangle 9.png" id="rectangle" alt="rectanglee">
+
+        </div>
+        <button type="button" id="submit-btn" name="submit-email">Send Registration Details</button>
+
+    </div>
+
+
+
+    <div class="container2">
+        <div class="border"></div>
+        <img class="number1" src="./sdas_files/1.png" alt="">
+        <div class="text2 ">Lorem ipsum dolor</div>
+        <div class="text3">Lorem ipsum dolor sit amet, consectetur</div>
+    </div>
+
+    <div class="polygon1">
+        <img src="./sdas_files/arrow.jpg" style="width: 2em; height: 3em;" alt="">
+    </div>
+
+
+    <div class="container3">
+        <div class="border2"></div>
+        <img class="number2" src="./sdas_files/2.png" alt="">
+        <div class="text4 ">Lorem ipsum dolor</div>
+        <div class="text5">Lorem ipsum dolor sit amet, consectetur</div>
+    </div>
+
+    <div class="polygon2">
+        <img src="./sdas_files/arrow.jpg" style="width: 2em; height: 3em;" alt="">
+    </div>
+
+    <p class="email-p">EMAIL</p>
+    <input type="text" class="input" id="fname" name="fname">
+
+
+
+    <div class="container4">
+        <div class="border3"></div>
+        <img class="number3" src="./sdas_files/3.png" alt="">
+        <div class="text6 ">Lorem ipsum dolor</div>
+        <div class="text7">Lorem ipsum dolor sit amet, consectetur</div>
+    </div>
+
+    <div class="border4">Curabitur ut facilisis arcu</div>
+
+    <div class="container5">
+        <img id="woman" src="./sdas_files/womanphoto.png" alt="">
+        <p class="text">Lorem ipsum dolor sit amet</p>
+        <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat quam sem, id facilisis
+            odio tempus eu.</p>
+    </div>
+
+    <div class="container6">
+        <img id="man" src="./sdas_files/manphoto.png" alt="">
+        <p class="text">Lorem ipsum dolor sit amet</p>
+        <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat quam sem, id facilisis
+            odio tempus eu.</p>
+    </div>
+
+    <button type="button" id="orange-btn" onclick="focusMethod()">Register Now! <form></form> </button>
+    <a href="http://localhost:5500/internet.html"> <img id="internet" src="./sdas_files/internet.png" alt=""></a>
+    <a href="http://localhost:5500/hmtlinfo.html"> <img id="html" src="./sdas_files/hmtlimg.png" alt=""></a>
+    <a href="http://localhost:5500/javascript.html"> <img id="Javascript" src="./sdas_files/jsimage.png" alt=""></a>
+    <a href="http://localhost:5500/css.html"> <img id="css" src="./sdas_files/cssimage.png" alt=""></a>
+    <a href="http://localhost:5500/wordpress.html"> <img id="wordpress" src="./sdas_files/wordpressimg.png" alt=""></a>
+
+    <div class="footer">
+        <p id="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat quam sem, id facilisis odio tempus eu. 
+            Curabitur ut facilisis arcu,sed vehicula risus. Ut faucibus ut sapien at dictum.
+             Ut ut elementum sem. Proin vulputate purus mauris.</p>
+        <p id="contacts">Contacts</p>
+        <p id="about-us">About Us</p>
+        <p id="moreinfo">More Info</p>
+    </div>
+    
+
+
+
+    <script src="./sdas_files/index.js.download"></script>
+    <style></style>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
